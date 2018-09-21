@@ -643,7 +643,7 @@ def bot(op):
             if "@"+cl.getProfile().displayName in msg.text:
                 if wait["tag"] == True:
                     tanya = msg.text.replace("@"+cl.getProfile().displayName,"")
-                    jawab = ("Tag Profile" +cl.getProfile().displayName+" On off\nAutochat By Bots CyberTK")
+                    jawab = ("" +cl.getProfile().displayName+" şuan burada değil.")
                     jawaban = (jawab)
                     cl.sendText(msg.to,jawaban)
 
@@ -656,7 +656,7 @@ def bot(op):
             if "@"+cl.getProfile().displayName in msg.text:
                 if wait["tag2"] == True:
                     tanya = msg.text.replace("@"+cl.getProfile().displayName,"")
-                    jawab = ("Tag Profile" +cl.getProfile().displayName+" On off\nAutochat By Bots CyberTK")
+                    jawab = ("Tag Profile" +cl.getProfile().displayName+"- ")
                     jawaban = (jawab)
                     cl.sendAudio(msg.to,jawaban)
         #--CANCEL KICK--#
